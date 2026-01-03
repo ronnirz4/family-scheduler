@@ -1,9 +1,9 @@
-import { Text, View } from 'react-native';
+import { View, Text } from 'react-native';
 
-export default function Explore() {
+export default function ExploreScreen() {
   return (
-    <View>
-      <Text>EXPLORE SCREEN</Text>
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Explore screen ✅</Text>
     </View>
   );
 }
